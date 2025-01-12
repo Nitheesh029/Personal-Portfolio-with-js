@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link{
+    @apply hover:text-slate-950 hover:font-semibold hover:border-b-2 border-black
+}
+
+.nav-flex{
+    @apply flex
+}
+
+.about-download-btn{
+    @apply px-6 py-3 bg-slate-600 text-white font-semibold rounded-full shadow-md hover:bg-slate-700 hover:shadow-lg transition duration-300 ease-in-out
+}
+
+.about-contact-btn{
+    @apply px-6 py-3 text-black font-semibold rounded-full shadow-md hover:bg-slate-600 hover:text-white hover:shadow-lg transition duration-300 ease-in-out
+    ring-2 ring-slate-600
+}
